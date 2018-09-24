@@ -13904,6 +13904,11 @@ window.Vue = __webpack_require__(36);
  */
 Vue.use(Buefy);
 
+var app = new Vue({
+  el: '#app',
+  data: {}
+});
+
 // Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 // const app = new Vue({
